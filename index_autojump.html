@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		// 設定秒數
+		var count = 3;
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		console.log(urlParams.get('channel'));
+		function countDown(){
+		
+			console.log(count);
+			// 將秒數寫在指定元素中
+			// document.getElementById("timeBox").innerHTML = 5;
+			// 每次執行就減1
+			count -= 1;
+			// 當 count = 0 時跳轉頁面
+			if (count == 0){
+				location.href="http://luodiye.h33game.com:8083/?channel=" + urlParams.get('channel');
+			}
+			// 設定每秒執行1次
+			setTimeout("countDown()",1000);
+		}
+		// 執行 countDown
+		countDown();
+	</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自動跳轉</title>
+</head>
+<body>
+	<div id="timeBox"></div>
+	<h3>五秒后将自动跳转...</h3>
+</body>
+</html>
