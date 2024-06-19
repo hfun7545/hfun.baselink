@@ -5,7 +5,7 @@
 	"test_api":[
 		"https://www.h33game.com/"
 	],
-	"base_url":[
+	"strategy_site":[
 		"https://raw.githubusercontent.com/hfun7545/hfun.baselink/main/sdk.json"
 	]
 }
