@@ -8,7 +8,7 @@
 		"redownload":{
 			"version":"1.0.1",
 			"updateDate":"2024/06/17",
-			"filePath":"" => 使用 ExtraData 的 downloadlink
+			"filePath":""
 		}
 	},
 	"android":{
@@ -20,7 +20,7 @@
 		"redownload":{
 			"version":"1.0.1",
 			"updateDate":"2024/06/17",
-			"filePath":"" => 使用 ExtraData 的 downloadlink
+			"filePath":""
 		}
 	}
 }
