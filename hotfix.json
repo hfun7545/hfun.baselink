@@ -1,0 +1,12 @@
+{
+	"ios":{
+		"version":"1.0.2",
+		"updateDate":"2024/06/19",
+		"filePath":"http://hotfix.lhj.life/ios/"
+	},
+	"android":{
+		"version":"1.0.2",
+		"updateDate":"2024/06/19",
+		"filePath":"http://hotfix.lhj.life/android/"
+	}
+}
