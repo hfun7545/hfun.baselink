@@ -6,6 +6,6 @@
 		"https://www.h33game.com/"
 	],
 	"base_url":[
-		""
+		"https://raw.githubusercontent.com/hfun7545/hfun.baselink/main/sdk.json"
 	]
 }

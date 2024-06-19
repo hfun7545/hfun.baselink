@@ -1,12 +1,26 @@
 {
 	"ios":{
-		"version":"1.0.2",
-		"updateDate":"2024/06/19",
-		"filePath":"http://hotfix.lhj.life/ios/"
+		"hotfix":{
+			"version":"1.0.2",
+			"updateDate":"2024/06/19",
+			"filePath":"http://hotfix.lhj.life/ios/"
+		},
+		"redownload":{
+			"version":"1.0.1",
+			"updateDate":"2024/06/17",
+			"filePath":"" => 使用 ExtraData 的 downloadlink
+		}
 	},
 	"android":{
-		"version":"1.0.2",
-		"updateDate":"2024/06/19",
-		"filePath":"http://hotfix.lhj.life/android/"
+		"hotfix":{
+			"version":"1.0.2",
+			"updateDate":"2024/06/19",
+			"filePath":"http://hotfix.lhj.life/android/"
+		},
+		"redownload":{
+			"version":"1.0.1",
+			"updateDate":"2024/06/17",
+			"filePath":"" => 使用 ExtraData 的 downloadlink
+		}
 	}
 }
