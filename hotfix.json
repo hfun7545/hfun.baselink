@@ -1,25 +1,25 @@
 {
 	"ios":{
 		"hotfix":{
-			"version":"1.0.2",
-			"updateDate":"2024/06/19",
-			"filePath":"http://hotfix.lhj.life/ios/"
+			"version":"1.0.0001",
+			"updateDate":"2024/06/24",
+			"filePath":"http://hotfile.lhj.life/1.0.0001/IOS/"
 		},
 		"redownload":{
-			"version":"1.0.1",
-			"updateDate":"2024/06/17",
+			"version":"1.0.0001",
+			"updateDate":"2024/06/24",
 			"filePath":""
 		}
 	},
 	"android":{
 		"hotfix":{
-			"version":"1.0.2",
-			"updateDate":"2024/06/19",
-			"filePath":"http://hotfix.lhj.life/android/"
+			"version":"1.0.0001",
+			"updateDate":"2024/06/24",
+			"filePath":"http://hotfix.lhj.life/1.0.0001/Android/"
 		},
 		"redownload":{
-			"version":"1.0.1",
-			"updateDate":"2024/06/17",
+			"version":"1.0.0001",
+			"updateDate":"2024/06/24",
 			"filePath":""
 		}
 	}
