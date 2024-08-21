@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>JS前端网页测速</title>
+</head>
+
+<body bgcolor="transparent" style="color:#FFFFFF;">
+<style type="text/css">
+    input {
+        font-size: 12px;
+        padding: 0 5px;
+        line-height: 21px;
+        font-family: tahoma;
+        border: 1px solid #ccc;
+        height: 21px;
+    }                        </style>
+<script language="javascript">
+    var tim = 1;
+    setInterval(function(){
+        tim++;
+    }, 1)
+    var b = 1;
+    var autourl = new Array();
+    autourl[1] = "https://raw.githubusercontent.com/hfun7545/hfun.baselink/main/hotfix.json";
+    autourl[2] = "https://hotfile.hfun.cc/";
+    autourl[3] = "https://www.h33game.com/";
+
+    function butt() {
+        document.write("<form name=autof style='padding:0px; margin:0px;'>")
+        for (var i = 1; i < autourl.length; i++) {
+            document.write("<input type=text name=txt" + i + " size=25 style='color:#999;' value=测试中…> =》<input type=text name=url" + i + " size=40> =》<br>");
+        }
+
+        document.write("<input onclick='window.location.reload()' type=submit value='刷新' style='margin-top:10px'></form>");
+    }
+
+    butt()
+
+    function auto(url) {
+        console.log(url);
+        document.forms[0]["url" + b].value = url;
+        console.log(tim);
+        //超过3秒说明超时
+        if (tim > 3000) {
+            document.forms[0]["txt" + b].value = "网址" + b + "链接超时";
+        } else {
+            document.forms[0]["txt" + b].value = "网址" + b + ": 访问速度" + tim + "ms";
+        }
+        b++
+    }
+
+    function run() {
+        for (var i = 1; i < autourl.length; i++){
+            document.write("<img src=" + autourl[i] + "/" + Math.random() + " width=1 height=1 onerror=auto('" + autourl[i] + "') style='display:none'>")
+        }
+    }
+
+    run()
+</script>
+</body>
+</html>
