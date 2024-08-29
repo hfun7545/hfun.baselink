@@ -1,24 +1,24 @@
 {
 	"ios":{
 		"hotfix":{
-			"version":"1.0.0002",
+			"version":"1.0.0001",
 			"updateDate":"2024/06/24",
 			"filePath":"http://hotfile.hfun.cc/1.0.0001/IOS/"
 		},
 		"redownload":{
-			"version":"1.0.0002",
+			"version":"1.0.0001",
 			"updateDate":"2024/06/24",
 			"filePath":""
 		}
 	},
 	"android":{
 		"hotfix":{
-			"version":"1.0.0002",
+			"version":"1.0.0001",
 			"updateDate":"2024/06/24",
 			"filePath":"http://hotfile.hfun.cc/1.0.0001/Android/"
 		},
 		"redownload":{
-			"version":"1.0.0002",
+			"version":"1.0.0001",
 			"updateDate":"2024/06/24",
 			"filePath":""
 		}
